@@ -6,8 +6,8 @@ tab1, tab2,tab3, tab4, tab5 = st.tabs(["肺癌男女分布", "依家族史與吸
 
 with tab1:
     st.header("肺癌男女分布")
-    st.image("images/lung_cancer_1.png", caption="肺癌分析趨勢圖")
+    st.image("image/lung_cancer_1.png", caption="肺癌分析趨勢圖")
 
 with tab2:
     st.header("依家族史與吸菸史分布")
-    st.image("images/lung_cancer_2.png", caption="肺癌外在致癌因子分布圖")
+    st.image("image/lung_cancer_2.png", caption="肺癌外在致癌因子分布圖")
