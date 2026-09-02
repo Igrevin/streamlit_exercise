@@ -3,7 +3,7 @@ import streamlit as st
 #Layout (A) Main
 st.title("研究肺癌臨床治療存活率")
 st.divider()
-st.logo("./images/logo.png",size="large")
+st.logo("./image/logo.png",size="large")
 
 col1, col2 = st.columns(2)
 with col1:
@@ -18,8 +18,8 @@ with c1:
 
 st.divider()
 st.header("PowerBI研究畫面")
-st.image("./images/lung_cancer_1.png",caption="肺癌趨勢分析圖")
-st.image("images/lung_cancer_2.png",caption="肺癌外在致癌因子分布圖")
+st.image("./image/lung_cancer_1.png",caption="肺癌趨勢分析圖")
+st.image("image/lung_cancer_2.png",caption="肺癌外在致癌因子分布圖")
 
 # Layout (B) Sidebar
 with st.sidebar:
